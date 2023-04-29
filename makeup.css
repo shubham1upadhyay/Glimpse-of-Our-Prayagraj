@@ -57,7 +57,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    row-gap: 350px;
+    row-gap: 400px;
     }
     .card-section .card{
     width:300px;
@@ -76,6 +76,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    row-gap: 100px;
     }
     .copyright{
     margin:5%;
