@@ -25,6 +25,19 @@
     justify-content: space-around;
     row-gap: 150px;
     }
+
+    @media only screen and (max-width:375px)  {
+        #p-gllery-img1{
+            margin-top:100px;
+        }
+    }
+
+    @media only screen and (max-width:677px)  {
+        #p-gllery-img1{
+            margin-top:130px;
+        }
+    }
+
     .flex-section-card{
     width:300px;
     height: 200px;
@@ -32,7 +45,7 @@
     .flex-section-card img{
     width:300px;
     height: 200px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     }
 
     /* photo gallery styling */
