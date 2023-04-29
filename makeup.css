@@ -32,8 +32,9 @@
     .flex-section-card img{
     width:300px;
     height: 200px;
+    margin-bottom: 20px;
     }
-    
+
     /* photo gallery styling */
     .photo-gallery-section{
     width: 90%;

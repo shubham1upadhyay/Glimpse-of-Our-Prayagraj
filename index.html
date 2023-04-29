@@ -262,18 +262,18 @@
       <div class="footer-section-item">
         <h5>Useful Links</h5>
         <ul class="nav flex-column">
-          <li><a class="nav-item mb-2" href="#">Link 1</a></li>
-          <li><a class="nav-item mb-2" href="#">Link 2</a></li>
-          <li><a class="nav-item mb-2" href="#">Link 3</a></li>
+          <li><a onclick="show_message()" class="nav-item mb-2" href="#">Link 1</a></li>
+          <li><a onclick="show_message()" class="nav-item mb-2" href="#">Link 2</a></li>
+          <li><a onclick="show_message()" class="nav-item mb-2" href="#">Link 3</a></li>
         </ul>
       </div>
 
       <div class="footer-section-item">
         <h5>More Links</h5>
         <ul class="nav flex-column">
-          <li><a class="nav-item mb-2" href="#">Link 4</a></li>
-          <li><a class="nav-item mb-2" href="#">Link 5</a></li>
-          <li><a class="nav-item mb-2" href="#">Link 6</a></li>
+          <li><a onclick="show_message()" class="nav-item mb-2" href="#">Link 4</a></li>
+          <li><a onclick="show_message()" class="nav-item mb-2" href="#">Link 5</a></li>
+          <li><a onclick="show_message()" class="nav-item mb-2" href="#">Link 6</a></li>
         </ul>
       </div>
 
@@ -294,6 +294,11 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    
+    <script>
+      function show_message()
+      {
+        alert("Ops!, Nothing here, will be updated soon !.");
+      }
+    </script>
   </body>
 </html>
